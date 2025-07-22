@@ -36,6 +36,8 @@ namespace DesafioFundamentos.Models
                     padraoGerado.Append("L");
                 else if (Char.IsDigit(letra))
                     padraoGerado.Append("N");
+                else
+                    padraoGerado.Append("I"); //inválido
             }
 
             //verifica placa no padrão antigo - ABC1234
